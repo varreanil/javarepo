@@ -1,0 +1,32 @@
+git status 
+-- to get the current status of local workspace compair to local repo
+
+git init 
+-- to initialize a new git repo
+
+git add [optionally file name]
+-- to add a new file to repo or to stage an existing file
+
+git commit -m
+-- to commit files that are already staged, note this will not add files automatically
+
+git commit -a -m
+-- same as above but also adds files
+
+git mv fromfile tofile
+--renames using git 
+
+git rm file
+--deletes a file from repo
+
+git log -p -2
+-- shows changes in the repo
+
+git log --name-status --pretty=format:"%an - %ar : %s"
+-- this will give a nice view of files that are modified with athor name and commit message
+
+git remote -v
+-- shows where the remote repo is
+
+git remote add <name> <repourl>
+-- will add a shortname to a remote repo
