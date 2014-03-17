@@ -30,3 +30,27 @@ git remote -v
 
 git remote add <name> <repourl>
 -- will add a shortname to a remote repo
+
+git fetch
+-- Fetch from remote will update your local repo but will not merge your changes in work folder
+
+git pull
+-- fetches from remote and merges changes i.e. equivalant to (git fetch + git merge) 
+
+git push <local> <remote> 
+-- git push java master
+
+git tag
+-- lists all the tags on the repo
+
+git tag -a v1.0 -m 'commment'
+-- will add a new tag to the repo
+
+git show v1.o
+-- will show the tag details
+
+git config --global alias.co checkout
+git config --global alias.last 'log -1 HEAD'
+git config --global alias.visual "!gitk"
+
+git reset HEAD file1
