@@ -54,3 +54,16 @@ git config --global alias.last 'log -1 HEAD'
 git config --global alias.visual "!gitk"
 
 git reset HEAD file1
+
+
+git rebase -i
+--To rebase 
+
+git commit --amend
+
+git log
+
+git commit --amend --reset-author
+
+
+
